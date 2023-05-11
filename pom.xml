@@ -17,7 +17,7 @@
         <version.junit-vintage-engine>5.8.0-M1</version.junit-vintage-engine>
         <version.hamcrest-library>2.2</version.hamcrest-library>
         <version.mockito-all>2.0.2-beta</version.mockito-all>  
-        <version.maven-surefire-plugin>3.0.0-M5</version.maven-surefire-plugin>        
+        <version.maven-surefire-plugin>3.0.0-M5</version.maven-surefire-plugin>
     </properties>
      <dependencies>
         <dependency>
@@ -65,7 +65,7 @@
             <version>${version.mockito-all}</version>     
             <scope>test</scope>
         </dependency>         
-    </dependencies>    
+    </dependencies>
      <build>
         <plugins>
             <plugin>
@@ -75,7 +75,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <propertyName>log4j2.disable.jmx</propertyName>
-                        <propertyValue>false</propertyValue>                        
+                        <propertyValue>false</propertyValue>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
